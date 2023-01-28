@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Martín Bolaños</title>
+    <link rel="stylesheet" href="style.css"  type="text/css" />
+    <script src="https://kit.fontawesome.com/e0527a5461.js" crossorigin="anonymous"></script>
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? family= Jost:ital@1 & family= Open+Sans:wght@300 & family= Solitreo & display=swap" rel="hoja de estilo">
+</head>
+
+<body>
+    <div class="encabezado">
+    
+        <div class="foto">
+            <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="foto de Martín Bolalos"> 
+        </div>
+
+        <div class="nomYlinks" >            
+            <div class="nombre">
+                <h1>Martín Bolaños</h1>
+                <h2>Desarrollador de software</h2>
+            </div>
+
+            <div class="links">       
+                <a href="#experi">Experiencia</a>
+                <a href="#habili">Habilidades</a>
+                <a href="#educa">Educación</a>       
+            </div>
+
+        </div>                        
+    </div>   
+      
+    <div class="cuerpo">
+
+        <div class="columna"> 
+
+            <div class="datos">
+                <p> <i class="fa-solid fa-house"></i> Catamarca 223, Paraná, Entre Ríos </p>
+                <br>
+                <p> <i class="fa-solid fa-phone"></i>  343 4720525 </p> 
+                <br>
+                <p> <i class="fa-solid fa-at"></i> bolanosmartin804@gmail.com</p>
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <div class="redes_sociales">
+                <a href="https://www.facebook.com/profile.php?id=100089635272705" class="fa-brands fa-facebook" target="blank"></a>
+                <a href="https://twitter.com/bolanos804" class="fa-brands fa-twitter" target="blank"> </a>
+                <a href="https://www.instagram.com/bolanosmartin804/ "class="fa-brands fa-instagram" target="blank"></a>
+                <a  href="https://www.linkedin.com/feed/" class="fa-brands fa-linkedin" target="blank"></a>
+            </div> 
+
+            <div class="referencias">
+                <button type="button" id="boton" onmouseout="sacarRef()">Ver referencias</button>
+                <div> 
+                    <p id="vacio"> </p>
+                </div>
+            </div>            
+        </div>
+    
+        <div class="principal">           
+       
+            <div  id="expe" onclick="agrandar('expe')" onmouseout="achicar('expe')">  
+                <h3 id="experi"> Experiencia</h3>
+                <br>
+                <hr>
+                <br>
+                           
+                <h4>Soluciones tecnológicas, Paraná</h4>
+                <p>Marzo 2018 - Presente</p>
+                <ul>
+                    <li>Desarrollo de aplicaciones web para comercios utilizando React Js, Javascript y PHP. </li>
+                    <li>Maquetación HTML5, CSS3 y Bootstrap.</li>
+                    <li>Manejo de datos JSON.</li>
+                    <li>Mantenimiento de páginas web.</li>
+                </ul>
+                <br>
+            
+                <h4>Dirección general de Informática de Entre Ríos </h4>      
+                <p>Febrero 2016 – Marzo 2018</p>   
+                <ul>
+                    <li>Desarrollo, testeo, implementación y mantenimiento de sistemas informáticos para organismos públicos provinciales, con COBOL y Phyton.</li>
+                    <li>Desarrollo de sistemas transversales que alcanzan a los organismos de la Administración Pública Provincial con COBOL y JAVA.</li>
+                </ul> 
+            </div> 
+            
+            <br>
+            <br>
+    
+            <div  id="habi" onclick="agrandar('habi')" onmouseout="achicar('habi')">               
+                <h3 id="habili"> Habilidades</h3>
+                <br>
+                <hr>
+                <br>
+                <ul>
+                    <li>Conocimiento avanzado de lenguajes de programación Phyton, Java, C++.</li>
+                    <li>Conocimiento intermedio de lenguaje de programación COBOL.</li>
+                    <li>Desarrollo avanzado de páginas web con React Js, Javascript, PHP, HTML5, CSS3 y Bootstrap.</li>
+                    <li>Uso y análisis de bases de datos.</li>
+                    <li>Trabajo con equipos multidisciplinarios.</li>
+                    <li>Inglés, nivel intermedio.</li>
+                </ul>
+            </div>
+
+            <br>
+            <br>
+        
+            <div id="edu" onclick="agrandar('edu')" onmouseout="achicar('edu')">
+                <h3 id="educa"> Educación</h3>
+                <br>
+                <hr>
+                <br>
+                <ul>
+                    <li>Técnico en Administración de Empresas, EET N2, Paraná.</li>
+                    <li>Curso de programación en Java y C++, Facultad de Ingeniería en Sistemas, UNER. 03/2014 a 06/2014.</li>
+                    <li>Curso de programación en Phyton, Facultad de Ingeniería en Sistemas, UNER. 07/2014 a 10/2014.</li>
+                    <li>Diplomatura en programación web, Full Stack Developer, UTN Paraná. 04/2016 a 12/2016.</li>
+                </ul>           
+            </div>
+            
+        </div>  
+    </div>
+    <script src="Funcion.js"> </script>
+              
+</body>
+</html>
